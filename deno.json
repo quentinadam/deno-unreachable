@@ -1,0 +1,24 @@
+{
+  "name": "@quentinadam/unreachable",
+  "version": "0.1.0",
+  "description": "A simple library to assert unreachable code paths",
+  "license": "MIT",
+  "author": "Quentin Adam",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/quentinadam/deno-unreachable.git"
+  },
+  "exports": "./src/unreachable.ts",
+  "fmt": {
+    "singleQuote": true,
+    "lineWidth": 120
+  },
+  "compilerOptions": {
+    "noUncheckedIndexedAccess": true,
+    "noImplicitReturns": true
+  },
+  "imports": {
+    "@quentinadam/assert": "jsr:@quentinadam/assert@^0.1.16",
+    "typescript": "npm:typescript@^5.9.3"
+  }
+}
